@@ -16,6 +16,7 @@ If you want to test it on your own local computer instead of
 
 you'll need to type the following two commands in the linux terminal in this order:
 >iptables -I INPUT -j NFQUEUE --queue-num 0
+
 >iptables -I OUTPUT -j NFQUEUE --queue-num 0
 
 Use:
