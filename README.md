@@ -1,8 +1,9 @@
 # DNS-Spoofer
 This is a python program used for DNS spoofing in Linux only.
-Windows coming soon..
+You can use it in Linux or Windows, make sure you have the interpreter installed and the necessary libraries.
+Make sure to enable Windows iptables queue and portforwarding.
 Python 2.7 + compatible.
-HTTP only/ HTTPS coming soon..
+HTTP and HTTPS supported ( sslstrip ).
 
 You need to enable port forwarding on your Linux Machine and enable queue system for packets.
 
